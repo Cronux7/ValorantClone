@@ -80,11 +80,13 @@ nav a{
 {
     width: 85px;
     margin-left: 35px
+    cursor: pointer;
 }
 .logo2
 {
     width: 27px;
     margin-left: 35px
+    cursor: pointer;
 }
 .search-btn{
     
@@ -95,6 +97,7 @@ nav a{
     background-color: #2B2A29;
     margin-left:  15px;
     padding: 5px
+    cursor: pointer;
 
 }
 
@@ -110,6 +113,7 @@ nav a{
 .nav-buttons img{
     width: 16px;
     margin-left: 10px;
+    cursor: pointer;
 }
 .search-btn img{
     width: 22px;
@@ -117,6 +121,7 @@ nav a{
     filter: invert();
     position: relative;
     right: 5px;
+    cursor: pointer;
 }
 .play-btn{
     position: relative;
@@ -130,6 +135,7 @@ nav a{
     padding: 8px 16px;
     margin: 10px;
     background-image: linear-gradient(135deg, #FF3542 10%, #FF7964 90%);
+    cursor: pointer;
 }
 
 .titles{
@@ -156,6 +162,7 @@ nav a{
     background-color:#FF4655;
     font-size: 18px;
     color:azure;
+    cursor: pointer;
     
 }
 .button-border{
@@ -216,6 +223,7 @@ margin: 60px;
     top: 0;
     right: 0;
     padding: 62px 50px;
+    cursor: pointer;
 }
 .link-icon{
     width: 15px;
@@ -232,6 +240,7 @@ margin: 60px;
 .news-single{
     width: min-content;
     height: min-content;
+    cursor: pointer;
 }
 .news-img{
     display: inline-block;
@@ -296,6 +305,7 @@ margin: 60px;
     border-radius: 0;
     border: none;
     background-color: #0F1923;
+    cursor: pointer;
 }
 
 .div4{
@@ -338,6 +348,7 @@ margin: 60px;
     border-radius: 0;
     border: none;
     background-color: #FF4655;
+    cursor: pointer;
 }
 .div4 video{
     width: 680px;
@@ -386,6 +397,7 @@ margin: 60px;
     border-radius: 0;
     border: none;
     background-color: #0F1923;
+    cursor: pointer;
 }
 .div5 img{
     width: 670px;
@@ -435,6 +447,7 @@ margin: 60px;
     border-radius: 0;
     border: none;
     background-color:#FF4655;
+    cursor: pointer;
 }
 .div6 img{
     width: 670px;
@@ -482,6 +495,7 @@ footer{
     align-items: center;
     justify-content: center;
     margin: 0 8px;
+    cursor: pointer;
     
 }
 .socials img{
@@ -501,6 +515,7 @@ footer{
 .comp-logos img{
     width: 90px;
     padding: 40px 20px 0 20px;
+    cursor: pointer;
 }
 #riot-lg{
     position: relative;
