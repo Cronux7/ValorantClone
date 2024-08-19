@@ -1,0 +1,557 @@
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    
+}
+@import url(https://db.onlinewebfonts.com/c/7bb508fd7255ec38b6f29cb4cf8668cf?family=DINNextW1G-Regular);
+
+@font-face {
+    font-family: "Mark W05 Medium";
+    src: url("https://db.onlinewebfonts.com/t/b621d1ffb46493164fd62fb7a83ab0ff.eot");
+    src: url("https://db.onlinewebfonts.com/t/b621d1ffb46493164fd62fb7a83ab0ff.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/b621d1ffb46493164fd62fb7a83ab0ff.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/b621d1ffb46493164fd62fb7a83ab0ff.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/b621d1ffb46493164fd62fb7a83ab0ff.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/b621d1ffb46493164fd62fb7a83ab0ff.svg#Mark W05 Medium")format("svg");
+}
+
+
+@font-face {
+    font-family: "Tungsten-Bold";
+    src: url("https://db.onlinewebfonts.com/t/561f38b1f4570de0fb8a39d691ab058c.eot");
+    src: url("https://db.onlinewebfonts.com/t/561f38b1f4570de0fb8a39d691ab058c.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/561f38b1f4570de0fb8a39d691ab058c.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/561f38b1f4570de0fb8a39d691ab058c.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/561f38b1f4570de0fb8a39d691ab058c.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/561f38b1f4570de0fb8a39d691ab058c.svg#Tungsten-Bold")format("svg");
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    background-color: #111111;
+    height:80px;
+    width: 100%;
+    display:flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    
+}
+
+nav li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+    font-family: "FF Mark W05", Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: 2px;
+    position: relative;
+    bottom: 5px;
+
+    
+}
+nav ul{
+    display: flex;
+    align-items: center;
+   
+}
+ul img{
+    width: 10px;
+    position: absolute;
+    margin: 4px;
+}
+.e-arrow{
+    width:14px;
+    position: relative;
+    top: 4px;
+    right: 10px;
+}
+nav a{
+    color: white;
+}
+.logo1
+{
+    width: 85px;
+    margin-left: 35px
+}
+.logo2
+{
+    width: 27px;
+    margin-left: 35px
+}
+.search-btn{
+    
+    width: 45px;
+    height: 45px;
+    border: none;
+    border-radius: 15px;
+    background-color: #2B2A29;
+    margin-left:  15px;
+    padding: 5px
+
+}
+
+
+
+.nav-buttons{
+    position: absolute;
+    right:0;
+    
+    margin: 5px 25px 0 0;
+    
+}
+.nav-buttons img{
+    width: 16px;
+    margin-left: 10px;
+}
+.search-btn img{
+    width: 22px;
+   margin-right: 50px;
+    filter: invert();
+    position: relative;
+    right: 5px;
+}
+.play-btn{
+    position: relative;
+    bottom: 4px;
+    letter-spacing: 2px;
+    font-size:12px;
+    font-weight:bold;
+    font-family:"Mark W05 Medium";
+    border: none;
+    border-radius: 12px;
+    padding: 8px 16px;
+    margin: 10px;
+    background-image: linear-gradient(135deg, #FF3542 10%, #FF7964 90%);
+}
+
+.titles{
+    margin-top: 264px;
+    width:fit-content;
+    height: 512px;
+    align-items: center;
+   
+
+}
+.titles p{
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: "DINNextW1G-Regular";
+    margin: 40px;
+}
+.titles button{
+    font-family: "DINNextW1G-Regular";
+    display: block;
+    border: none;
+    padding: 17px 35px;
+    margin: 3px;
+    background-color:#FF4655;
+    font-size: 18px;
+    color:azure;
+    
+}
+.button-border{
+    border:white 0.1px solid;
+    position: relative;
+ width: fit-content;
+ height: fit-content;
+margin: 60px;
+}
+
+.titles img{
+    
+    width: 375px;
+}
+
+
+
+.main video{
+    position: absolute;
+    right: 0;
+   top:20px;
+    z-index: -1;
+}
+
+@media (min-aspect-ratio:16/9)
+{
+    .main video{
+        width: 100%;
+        height: auto;
+    }
+}
+@media (max-aspect-ratio:16/9)
+{
+    .main video{
+        width: auto;
+        height: 100%;
+    }
+}
+
+.news{
+    background-image: url(assets/newsbg.png  );
+    height: auto;
+    position: relative;
+    padding-bottom: 20px;   
+    
+}
+.news h1{
+    font-family: "Tungsten-Bold";
+    font-size: 48px;
+    padding:50px 
+}
+.news h6{
+    font-family: "DINNextW1G-Regular";
+    font-weight: 100;
+    font-size: 20px;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 62px 50px;
+}
+.link-icon{
+    width: 15px;
+    filter: brightness(0) saturate(100%) invert(38%) sepia(85%) saturate(2723%) hue-rotate(332deg) brightness(112%) contrast(110%);
+    position: absolute;
+    right: 30px;
+    bottom: 578px;
+}
+.news-grp{
+    display: flex;
+    margin: 30px;
+    justify-content:space-evenly
+}
+.news-single{
+    width: min-content;
+    height: min-content;
+}
+.news-img{
+    display: inline-block;
+
+}
+.news-img img{
+    width: 450px;
+    display: inline-block;
+}
+.news-grp{
+    color: #293744;
+    font-size: 18px;
+    font-weight: 550;
+    font-family: "DINNextW1G-Regular";
+    margin-top:0 ;
+}
+.disc{
+    padding-top: 10px ;
+    font-weight: normal;
+    font-size: 13px;
+}
+.disc b{
+    font-size: 13px;
+    color: #ff4655;
+}
+
+.news-grp h4{
+    font-weight: bold;
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+
+.div3{
+    
+    background-image: url(assets/div3-bg.jpg);
+    background-repeat: no-repeat;
+    background-position:-350px;
+    background-size: cover;
+    height: 90vh;
+    font-family: "DINNextW1G-Regular";
+    font-size: 18px;
+    letter-spacing: 2px;
+    color: white;
+}
+.div3 h1{
+    font-size: 150px;
+    font-family:"Tungsten-Bold" ;
+    padding: 100px 0 40px 50px;
+    line-height: 140px;
+}
+.div3 p{
+    padding: 0 0 70px 50px;
+}
+.div3 button{
+    color: white;
+    letter-spacing: 2px;
+    font-family: "DINNextW1G-Regular";
+    font-size: 18px;
+    margin-left: 50px;
+    padding: 24px;
+    border-radius: 0;
+    border: none;
+    background-color: #0F1923;
+}
+
+.div4{
+   
+    background-image: url(assets/div4bg.png);
+    background-repeat: no-repeat;
+    background-position:-200px;
+    background-size: cover;
+    font-family: "DINNextW1G-Regular";
+    font-size: 18px;
+    color:#0F1923;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.div4-texts{
+    width: 50%;
+    
+}
+.div4 h1{
+   font-size: 150px;
+    font-family:"Tungsten-Bold" ;
+    padding: 100px 0 40px 50px;
+    line-height: 140px;
+}
+.div4 h5{
+    padding: 0 0 20px 50px;
+}
+.div4 p{
+    padding: 0 0 40px 50px;
+    line-height: 25px;
+}
+.div4 button{
+    color: white;
+    letter-spacing: 1px;
+    font-family: "DINNextW1G-Regular";
+    font-size: 18px;
+    margin:0 0 60px 50px;
+    padding: 26px;
+    border-radius: 0;
+    border: none;
+    background-color: #FF4655;
+}
+.div4 video{
+    width: 680px;
+    padding-right: 50px;
+}
+
+
+.div5{
+   
+    background-image: url(assets/div5bg.png);
+    background-repeat: no-repeat;
+    background-position:-510px;
+    background-size: cover;
+    font-family: "DINNextW1G-Regular";
+    font-size: 18px;
+    color:#ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.div5-texts{
+    width: 50%;
+    
+}
+.div5 h1{
+    font-size: 150px;
+    font-family:"Tungsten-Bold" ;
+    padding: 100px 0 40px 50px;
+    line-height: 140px;
+    letter-spacing: 1px;
+}
+.div5 h5{
+    padding: 0 0 20px 50px;
+}
+.div5 p{
+    padding: 0 0 40px 50px;
+    line-height: 30px;
+}
+.div5 button{
+    color: white;
+    letter-spacing: 2px;
+    font-family: "DINNextW1G-Regular";
+    font-size: 18px;
+    margin:0 0 60px 50px;
+    padding: 26px;
+    border-radius: 0;
+    border: none;
+    background-color: #0F1923;
+}
+.div5 img{
+    width: 670px;
+    padding: 60px 0 60px 50px;
+}
+
+
+.div6{
+   
+    background-image: url(assets/mapsbg.png);
+    background-repeat: no-repeat;
+    background-position:-510px;
+    background-size: cover;
+    font-family: "DINNextW1G-Regular";
+    font-size: 18px;
+    color:#0F1923;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.div6-texts{
+    width: 40%;
+    
+}
+.div6 h1{
+    font-size: 148px;
+    font-family:"Tungsten-Bold" ;
+    padding: 100px 0 40px 50px;
+    line-height: 140px;
+    letter-spacing: 1px;
+}
+.div6 h5{
+    padding: 0 0 20px 50px;
+}
+.div6 p{
+    padding: 0 0 40px 50px;
+    line-height: 28px;
+
+}
+.div6 button{
+    color: white;
+    letter-spacing: 1px;
+    font-family: "DINNextW1G-Regular";
+    font-size: 18px;
+    margin:0 0 60px 50px;
+    padding: 22px;
+    border-radius: 0;
+    border: none;
+    background-color:#FF4655;
+}
+.div6 img{
+    width: 670px;
+    padding: 60px 50px 50px 0;
+}
+
+.div7{
+    height: 85px;
+    background-color: #292929;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.div7 button{
+    color: white;
+    font-family:"Mark W05 Medium";
+    font-weight:600;
+    letter-spacing: 2px;
+    font-size: 12px;
+    border:none;
+    border-radius: 6px;
+    padding: 6px 14px;
+    background:transparent;
+}
+
+footer{
+    font-family: "Mark W05 Medium";
+    background-color: #111111;
+    height: auto;
+    padding: 25px;
+    
+}
+.socials{
+    height:auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.socials button{
+    width: 32px;
+    height: 32px;
+    border: none;
+    border-radius: 40%;
+    background-color: #292929;
+    align-items: center;
+    justify-content: center;
+    margin: 0 8px;
+    
+}
+.socials img{
+    width: 16px;
+    filter:invert();
+    padding: 8px;
+    
+
+}
+
+.comp-logos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+.comp-logos img{
+    width: 90px;
+    padding: 40px 20px 0 20px;
+}
+#riot-lg{
+    position: relative;
+    top: 10px;
+}
+
+.copyr{
+    color: #7E7E7E;
+    font-size: 12px;
+    margin-bottom: 30px;
+    
+}
+.tos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tos button{
+    
+    color: white;
+    font-family:"Mark W05 Medium";
+    font-weight:600;
+    letter-spacing: 2px;
+    font-size: 12px;
+    border:none;
+    border-radius: 6px;
+    padding: 6px 14px;
+    background:transparent;
+    
+}
+.teen-box{
+    display: flex;
+    width: max-content;
+    height: max-content;
+    border-radius:12px;
+    padding: 10px;
+    margin: 20px;
+    background-color: #292929;
+    color: white;
+}
+
+.teen-box img{
+    width: 80px;
+    
+    padding-right: 10px;
+}
+.teen-box p{
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 1px;
+    font-size: 12px;
+    text-align: left;
+
+}
